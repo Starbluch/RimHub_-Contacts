@@ -9,36 +9,60 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/style.scss">
-    <title>Курси</title>
+    <title>Контакти</title>
 </head>
 <body>
     <div class="container">
         <main class="main">
             <div class="main__navigation">
                 <span class="main__navigation__item "><a class="item__active" href="#">Головна</a></span>
-                <img src="assets/Icons/navigation.png" alt="">
-                <span class="main__navigation__item"><a href="#">Курси</a></span>
+                <img class="img" src="assets/Icons/navigation.png" alt="">
+                <span class="main__navigation__item "><a class="item__active" href="#">Курси</a></span>
+                <img class="img" src="assets/Icons/navigation.png" alt="">
+                <span class="main__navigation__item"><a href="#">Інвестування</a></span>
             </div> 
 
-            <section class="contact-section">
-                <div class="form-container">
-                    <h2>Зворотний зв'язок</h2>
-                    <form action="/submit" method="POST">
-                        <input type="text" name="name" placeholder="Ім’я" required>
-                        <input type="tel" name="phone" placeholder="Телефон" required>
-                        <textarea name="message" placeholder="Хто що тут писати придумай як правильно" rows="4" required></textarea>
-                        <button type="submit">ВІДПРАВИТИ</button>
+            <section class="section__contact">
+                <div class="contact__form">
+
+                    <h1 class="form__title">Зворотній зв'язок</h1>
+
+                    <form class="form" action="/submit" method="POST">
+                        <input class="input" type="text" name="name" placeholder="Ім’я" required>
+                        <input class="input" type="tel" name="phone" placeholder="Телефон" required>
+                        <textarea class="textarea" name="message" placeholder="ХXXXXXX" rows="4" required></textarea>
+
+                        <button class="btn" type="submit">ВІДПРАВИТИ</button>
                     </form>
+
                 </div>
             
-                <div class="contact-info">
-                    <h2>Зв'яжіться з нами</h2>
-                    <p>Щоб отримати додаткову інформацію або інші деталі, будь ласка, скористайтесь контактною формою або зв'яжіться з нами за контактними даними:</p>
-                    <ul>
-                        <li><i class="icon-phone"></i>Телефон: 096 305 305 8</li>
-                        <li><i class="icon-location"></i>Місто: Вінниця</li>
-                        <li><i class="icon-email"></i>Електронна пошта: needhelp@gmail.com</li>
-                    </ul>
+                <div class="contact__info">
+                    <h3 class="contact__info__title">Зв'яжіться з нами</h3>
+                    <p class="contact__info__subtitle">Щоб отримати додаткову інформацію або з'ясувати деталі, будь ласка, скористайтеся спеціальною контактною формою</p>
+                    <div class="contact__content">
+                        <div class="item">
+                            <img src="assets/Icons/icon_20.png" alt="" class="img_1">
+                            <div class="item__text">
+                                Телефон
+                                <p class="p">096 305 305 8</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/Icons/icon_21.png" alt="" class="img_2">
+                            <div class="item__text">
+                                Місто
+                                <p class="p">Вінниця</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/Icons/icon_22.png" alt="" class="img_3">
+                            <div class="item__text">
+                                Електронна пошта
+                                <p class="p">needhelp@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             
