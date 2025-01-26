@@ -216,6 +216,23 @@ p, a {
     font-size: 14px;
   }
 }
+@media (max-width: 450px) {
+  .section__contact .contact__info .contact__content .item .img_1 {
+    margin-right: 25px;
+    width: 24.67px;
+    height: 23.33px;
+  }
+  .section__contact .contact__info .contact__content .item .img_2 {
+    margin-right: 25px;
+    width: 26px;
+    height: 25.33px;
+  }
+  .section__contact .contact__info .contact__content .item .img_3 {
+    margin-right: 25px;
+    width: 26px;
+    height: 18.67px;
+  }
+}
 @media (max-width: 768px) {
   .section__contact .contact__info {
     max-width: 420px;
