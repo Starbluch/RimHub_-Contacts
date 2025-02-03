@@ -250,6 +250,11 @@ p, a {
   }
 }
 
+@media (max-width: 768px) {
+  .main__navigation {
+    margin: 90px 0 0 5px;
+  }
+}
 .section__contact {
   position: relative;
   display: flex;
@@ -419,6 +424,7 @@ p, a {
 
 @media (max-width: 768px) {
   .section__contact {
+    margin: 20px auto 60px auto;
     padding: 15px;
     display: grid;
     grid-template-rows: 1fr 1fr;
